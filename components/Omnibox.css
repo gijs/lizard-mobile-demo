@@ -1,0 +1,26 @@
+.Omnibox {
+  opacity: 1;
+  padding-top: 70px;
+  left: 0;
+  top: 0;
+  width: 420px;
+  position: absolute;
+  overflow-y: scroll;
+}
+.ToggleButtonContainer {
+  position: absolute;
+  z-index: 0;
+  top: 8px;
+  left: 100%;
+}
+.ToggleButton {
+  width: 23px;
+  height: 48px;
+  cursor: pointer;
+  border-left: 1px solid #D4D4D4;
+}
+
+.SearchInputWrapper {
+  height: 50px;
+  position: absolute;
+}

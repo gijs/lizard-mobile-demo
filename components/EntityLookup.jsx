@@ -1,0 +1,18 @@
+export const ENTITY_NAMES = {
+  'bridge': 'Brug',
+  'groundwaterstation': 'Grondwaterstation',
+  'manhole': 'Put',
+  'measuringstation': 'Meetstation',
+  'monitoringwell': 'Meetput',
+  'overflow': 'Overstort',
+  'pipe': 'Leiding',
+  'orifice': 'Uitlaat',
+  'sluice': 'Sluis',
+  'levee': 'Dijk',
+  'culvert': 'Doorlaat',
+  'pressurepipe': 'Drukleiding',
+  'pumpeddrainagearea': 'Regenwaterleiding',
+  'pumpstation': 'Gemaal',
+  'wastewatertreatmentplant': 'RWZI',
+  'weir': 'Stuw',
+};

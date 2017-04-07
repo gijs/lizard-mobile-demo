@@ -1,0 +1,46 @@
+// Variables
+// --------------------------
+
+$fa-css-prefix:       lz;
+$lz-font-path:        "../fonts" !default;
+$lz-font-size-base:   14px !default;
+$lz-line-height-base: 1 !default;
+$lz-css-prefix:       lz !default;
+$lz-version:          "1.1" !default;
+
+$lz-var-bridge:                 "a";
+$lz-var-bridge-draw:            "b";
+$lz-var-bridge-fixed:           "c";
+$lz-var-culvert:                "d";
+$lz-var-culvert-with-outlet:    "e";
+$lz-var-manhole:                "f";
+$lz-var-outlet:                 "g";
+$lz-var-overflow:               "h";
+$lz-var-overflow-open:          "i";
+$lz-var-pipe:                   "j";
+$lz-var-pumpstation:            "k";
+$lz-var-pumpstation-diesel:     "l";
+$lz-var-pumpstation-electric:   "m";
+$lz-var-pumpstation-wind:       "n";
+$lz-var-rwzi:                   "o";
+$lz-var-satellite:              "p";
+$lz-var-terrain:                "q";
+$lz-var-weir:                   "r";
+$lz-var-weir-automatic:         "s";
+$lz-var-weir-controlable:       "t";
+$lz-var-default:                ")";
+$lz-var-inclinometer:           "(";
+$lz-var-image:                  "\f03e";  // Radar images, IR images
+$lz-var-rss:                    "\f09e";  // DMC
+$lz-var-seismometer:            "G";
+$lz-var-monitoring-well:        "z";
+$lz-var-surface-water:          "y";
+$lz-var-threedi:                "{"; // threedi logo
+$lz-var-multi-point-tool:       "|"; // tool for selecting multiple points
+$lz-var-line-tool:              "}"; // tool for drawing a line
+$lz-var-region-tool:            "~"; // tool for selecting a region
+
+
+// Straight from FontAwesome
+$lz-var-database:               "\f1c0";  // Groundwaterstation, database
+$lz-var-tint:                   "\f043";  // Measuringstation, drop, tint

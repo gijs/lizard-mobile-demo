@@ -1,0 +1,25 @@
+{
+  "name": "lizard-iconfont",
+  "version": "1.3.1",
+  "description": "Icons for Lizard. CSS only.",
+  "main": "dist/lizard-icons.css",
+  "scripts": {
+    "test": "compass watch",
+    "start": "compass compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nens/lizard-iconfont.git"
+  },
+  "keywords": [
+    "lizard",
+    "icon",
+    "font"
+  ],
+  "author": "Nelen & Schuurmans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nens/lizard-iconfont/issues"
+  },
+  "homepage": "https://nens.github.io/lizard-iconfont"
+}

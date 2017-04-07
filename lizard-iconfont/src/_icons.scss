@@ -1,0 +1,123 @@
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+.#{$lz-css-prefix}-bridge:before {
+	content: $lz-var-bridge;
+}
+.#{$lz-css-prefix}-bridge-draw:before {
+	content: $lz-var-bridge-draw;
+}
+.#{$lz-css-prefix}-bridge-fixed:before {
+	content: $lz-var-bridge-fixed;
+}
+.#{$lz-css-prefix}-culvert:before {
+	content: $lz-var-culvert;
+}
+.#{$lz-css-prefix}-culvert-with-outlet:before {
+	content: $lz-var-culvert-with-outlet;
+}
+.#{$lz-css-prefix}-manhole:before {
+	content: $lz-var-manhole;
+}
+.#{$lz-css-prefix}-outlet:before {
+	content: $lz-var-outlet;
+}
+.#{$lz-css-prefix}-overflow:before {
+	content: $lz-var-overflow;
+}
+.#{$lz-css-prefix}-overflow-open:before {
+	content: $lz-var-overflow-open;
+}
+.#{$lz-css-prefix}-pipe:before {
+	content: $lz-var-pipe;
+}
+.#{$lz-css-prefix}-pumpstation:before {
+	content: $lz-var-pumpstation;
+}
+.#{$lz-css-prefix}-pumpstation-diesel:before {
+	content: $lz-var-pumpstation-diesel;
+}
+.#{$lz-css-prefix}-pumpstation-electric:before {
+	content: $lz-var-pumpstation-electric;
+}
+.#{$lz-css-prefix}-pumpstation-wind:before {
+	content: $lz-var-pumpstation-wind;
+}
+.#{$lz-css-prefix}-rwzi:before {
+	content: $lz-var-rwzi;
+}
+.#{$lz-css-prefix}-satellite:before {
+	content: $lz-var-satellite;
+}
+.#{$lz-css-prefix}-terrain:before {
+	content: $lz-var-terrain;
+}
+.#{$lz-css-prefix}-weir:before {
+	content: $lz-var-weir;
+}
+.#{$lz-css-prefix}-weir-automatic:before {
+	content: $lz-var-weir-automatic;
+}
+.#{$lz-css-prefix}-weir-controlable:before {
+	content: $lz-var-weir-controlable;
+}
+.#{$lz-css-prefix}-default:before {
+	content: $lz-var-default;
+}
+.#{$lz-css-prefix}-database:before {
+	content: $lz-var-database;
+}
+.#{$lz-css-prefix}-measuringstation:before,
+.#{$lz-css-prefix}-tint:before,
+.#{$lz-css-prefix}-drop:before {
+	content: $lz-var-tint;
+}
+
+.#{$lz-css-prefix}-radar-image:before,
+.#{$lz-css-prefix}-radar-images:before,
+.#{$lz-css-prefix}-ir-image:before,
+.#{$lz-css-prefix}-ir-images:before,
+.#{$lz-css-prefix}-images:before,
+.#{$lz-css-prefix}-image:before {
+	content: $lz-var-image;
+}
+
+.#{$lz-css-prefix}-inclinometer:before {
+	content: $lz-var-inclinometer;
+}
+
+.#{$lz-css-prefix}-rss:before,
+.#{$lz-css-prefix}-feed:before,
+.#{$lz-css-prefix}-dmc:before {
+	content: $lz-var-rss;
+}
+
+.#{$lz-css-prefix}-surface-water:before {
+	content: $lz-var-surface-water;
+}
+
+.#{$lz-css-prefix}-groundwaterstation:before,
+.#{$lz-css-prefix}-monitoring-well:before {
+	content: $lz-var-monitoring-well;
+}
+
+.#{$lz-css-prefix}-seismometer:before {
+	content: $lz-var-seismometer;
+}
+
+.#{$lz-css-prefix}-3di:before,
+.#{$lz-css-prefix}-threedi:before {
+	content: $lz-var-threedi;
+}
+
+.#{$lz-css-prefix}-multi-point-tool:before {
+	content: $lz-var-multi-point-tool;
+}
+
+.#{$lz-css-prefix}-line-tool:before {
+	content: $lz-var-line-tool;
+}
+
+.#{$lz-css-prefix}-region-tool:before {
+	content: $lz-var-region-tool;
+}

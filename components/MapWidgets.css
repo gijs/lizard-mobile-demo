@@ -1,0 +1,37 @@
+.ZoomButtons {
+  right: 0;
+  bottom: 50px;
+  width: 37px;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+  border-radius: 2px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+  color: #7F7F7F;
+  cursor: pointer;
+}
+.ZoomIn {
+  height: 45px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.ZoomOut {
+  height: 45px;
+}
+.MapWidgets {
+  display: -webkit-inline-box;
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  width: 170px;
+  height: 37px;
+  background-color: #fff;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+  border-radius: 2px;
+}
+.MapWidgetsIconContainer {
+  width: 45px;
+  height: 100%;
+  margin: 0;
+}

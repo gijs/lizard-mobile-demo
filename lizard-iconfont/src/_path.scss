@@ -1,0 +1,13 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'LizardIcons';
+  src: url('#{$lz-font-path}/LizardIcons.eot?v=#{$lz-version}');
+  src: url('#{$lz-font-path}/LizardIcons.eot?#iefix&v=#{$lz-version}') format('embedded-opentype'),
+    url('#{$lz-font-path}/LizardIcons.woff?v=#{$lz-version}') format('woff'),
+    url('#{$lz-font-path}/LizardIcons.ttf?v=#{$lz-version}') format('truetype'),
+    url('#{$lz-font-path}/LizardIcons.svg?v=#{$lz-version}#lizardiconsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

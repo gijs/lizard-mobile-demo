@@ -1,0 +1,17 @@
+.TimeseriesCarousel {
+  width: 100%;
+  height: 190px;
+  position: relative;
+}
+.ChevronLeft {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  cursor: pointer;
+}
+.ChevronRight {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  cursor: pointer;
+}

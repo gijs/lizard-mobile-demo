@@ -1,0 +1,22 @@
+// Font version number
+$lz-version: "1.3";
+
+// Import Font Awesome
+@import "font-awesome/variables";
+
+// Lizard Icons definitions
+@import "variables";
+@import "path";
+@import "core";
+@import "icons";
+
+// FontAwesome icon transformations.
+// Available with the lz- prefix instead of fa-.
+@import "font-awesome/mixins";
+@import "font-awesome/larger";
+@import "font-awesome/fixed-width";
+@import "font-awesome/list";
+@import "font-awesome/bordered-pulled";
+@import "font-awesome/animated";
+@import "font-awesome/rotated-flipped";
+@import "font-awesome/stacked";

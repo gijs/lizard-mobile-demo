@@ -1,0 +1,25 @@
+.Timeline {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  background-color: #FFFFFF;
+}
+.ChevronLeft {
+  position: absolute;
+  top: 0;
+  padding: 50px 0 0 0;
+  height: 100%;
+  background-color: #F9F9F9;
+  left: 0;
+  cursor: pointer;
+}
+.ChevronRight {
+  position: absolute;
+  top: 0;
+  padding: 50px 0 0 0;
+  height: 100%;
+  background-color: #F9F9F9;
+  right: 0;
+  cursor: pointer;
+}
