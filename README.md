@@ -1,53 +1,72 @@
-LIZARD-CLIENT-2
-===============
+LIZARD-MOBILE-DEMO
+==================
 
-Lizard front-end reimplemented in React + Redux.
-
-
-IDEAS
------
-
-Desktop and mobile/tablet omniboxes
-You can star assets or parts of assets
-Starred items can be found in a personal catalog
-Dashboard is a seperate product with Lizard as one of its integration points
-Timeline will show only when temporal data is shown on map
+A Lizard front-end reimplemented in React + Redux.
 
 
+INSTALL AND RUN
+---------------
+
+You'll need a fairly recent Node.js installation (v6.9.1 or higher) that includes `npm`. On Ubuntu you may need to install the `nodejs-legacy` package.
+
+Install [Yarn](https://yarnpkg.com/en/) first if you don't have it set up already. Should be as easy as `$ npm install -g yarn`.
+
+With Yarn, Node and npm installed, run:
+
+```bash
+$ yarn install
+```
+
+This will parse `package.json` and `yarn.lock` and will install the proper versions of all dependencies.
+
+To start a devserver:
+
+```bash
+$ sso_user=yourusername sso_pass=yourpassword yarn start
+```
+
+If you don't provide sso_user and sso_pass, the requests to demo.lizard.net won't be authenticated.
+
+It defaults to run on [http://localhost:3000](http://localhost:3000).
 
 
-*Dashboard*
+BUILDING A PRODUCTION BUNDLE
+----------------------------
 
-Inspiration:
-Look at periscopedata.com, powerbi, tableau
+```bash
+$ npm run build
+```
 
-What is it?
-Multi page dynamic reports, configurable with widgets such as charts
-
-*Management environment*
-
-Look at the settings pages of google cloud etcetera
+This will run webpack in production mode. The result will be a `bundle.js` file in the `dist/` directory.
 
 
 
+Browser development extensions
+------------------------------
+
+This front-end uses React and Redux. These extensions may help:
+
+- React Devtools for [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
+
+- Redux Devtools for [Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) or [Firefox](https://addons.mozilla.org/en-Gb/firefox/addon/remotedev/)
 
 
 
+PARTIALLY IMPLEMENTED
+---------------------
 
-IMPLEMENTED
------------
-
- - Map
- - Omnibox
- - Timeseries in Omnibox
- - Profiletool
- - Background switcher
- - Top bar
+- Map
+- Omnibox
+- Timeseries in Omnibox
+- Profiletool
+- Background switcher
+- Top bar
 
 
 NOT YET IMPLEMENTED
 -------------------
 
+- The rest!
 - MapboxGL (misses vector tiles endpoint)
 - Cesiumjs (for 3d)
 - Config overlay
@@ -64,23 +83,3 @@ NOT YET IMPLEMENTED
 - Favorites
 
 
-BUGS
-----
-
-- Shiftkey sometimes remains activated
-- Profile tool bears proper projection
-- SVGs shift while zooming
-
-
-LOOK INTO
----------
-
-- Victorycharts / custom charts?
-- https://github.com/FormidableLabs/formidable-charts
-- Migration to webpack 2 (treeshaking, codesplitting etc.)
-  - http://jonathancreamer.com/advanced-webpack-part-2-code-splitting/
-- https://github.com/callemall/material-ui/issues/1670
-- https://github.com/malte-wessel/react-custom-scrollbars
-- http://malte-wessel.github.io/react-custom-scrollbars/
-
-- https://demo.lizard.net/api/v2/wms/?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=radar%3Ahour&STYLES=radar-hour&FORMAT=image%2Fpng&TRANSPARENT=false&HEIGHT=497&WIDTH=525&TIME=2017-02-06T08%3A00%3A00&ZINDEX=20&SRS=EPSG%3A3857&BBOX=469629.1017841229,6574807.4249777235,626172.1357121639,6731350.458905761
